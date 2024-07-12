@@ -6,7 +6,7 @@
 </CascadingValue>
 
 @code {
-    [Parameter] public RenderFragment ChildContent { get; set; }
+    [Parameter] public RenderFragment ChildContent { get; set; } = default!;
     [Parameter] public EventCallback OnDataChanged { get; set; }
     public Func<Task>? OnRefresh { get; set; }
     private bool _shouldRender;
