@@ -1,31 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
-	<PropertyGroup>
-		<TargetFrameworks>net8.0</TargetFrameworks>
-		<Nullable>enable</Nullable>
-		<ImplicitUsings>enable</ImplicitUsings>
-		<PackageId>BlazorSortableJs</PackageId>
-		<Authors>John J Bomhold</Authors>
-		<Title>Blazor SortableJs Wrapper</Title>
-		<Description>
-			This is a SortableJs wrapper for blazor
-		</Description>
-		<PackageLicenseUrl></PackageLicenseUrl>
-		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/jbomhold3/BlazorSortableJS</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/jbomhold3/BlazorSortableJS</RepositoryUrl>
-		<RepositoryType>git</RepositoryType>
-		<Copyright>John J Bomhold</Copyright>
-		<Version>2.0.0-Preview2</Version>
-	</PropertyGroup>
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>BlazorSortableJs</PackageId>
+    <Authors>John J Bomhold</Authors>
+    <Title>Blazor SortableJs Wrapper</Title>
+    <Description>
+      This is a SortableJs wrapper for blazor
+    </Description>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/jbomhold3/BlazorSortableJS</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/jbomhold3/BlazorSortableJS</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>John J Bomhold</Copyright>
+    <Version>2.0.0-Preview2</Version>
+  </PropertyGroup>
 
 
-	<ItemGroup>
-		<SupportedPlatform Include="browser" />
-	</ItemGroup>
+  <ItemGroup>
+    <SupportedPlatform Include="browser" />
+  </ItemGroup>
 
 
-	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.*" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.0" />
+  </ItemGroup>
 </Project>
